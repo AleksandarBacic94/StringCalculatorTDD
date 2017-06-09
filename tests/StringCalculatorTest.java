@@ -73,7 +73,7 @@ public class StringCalculatorTest {
 	public void Mnozenje_test3() throws StringCalculatorException{
 		StringCalculator calc = new StringCalculator();
 		calc.multiply("1,-5,3");
-	}
+	} 
 	
 	@Test (expected = StringCalculatorException.class)
 	public void Mnozenje_test4() throws StringCalculatorException{

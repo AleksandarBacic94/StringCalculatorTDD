@@ -2,7 +2,7 @@ public class StringCalculator {
 	
 	
 	public StringCalculator() {
-		
+		 
 	}
 	
 	public int add(String numbersStr) throws StringCalculatorException{
