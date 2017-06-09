@@ -24,7 +24,7 @@ public class StringCalculator {
 			
 			sum += tmp;
 		}
-		
+		 
 		return sum;
 	}
 	
