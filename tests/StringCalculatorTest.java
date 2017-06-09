@@ -14,7 +14,7 @@ public class StringCalculatorTest {
 	public void Add_test1() throws StringCalculatorException{
 		StringCalculator calc = new StringCalculator();
 		assertEquals(calc.add("1,2,3"),6);
-	}
+	} 
 	
 	@Test (expected = StringCalculatorException.class)
 	public void Add_test2() throws StringCalculatorException{

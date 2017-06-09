@@ -15,7 +15,6 @@ public class StringCalculator {
 		for (int i = 0; i < numbers.length; i++) {
 			if (numbers.length == 1) 
 				throw new StringCalculatorException("Error! Operation can not be performed with one number.");
-			
 			int tmp = Integer.parseInt(numbers[i]);
 			if(tmp < 0) 
 				throw new StringCalculatorException("Error! Operation can not be performed with negative numbers.");
