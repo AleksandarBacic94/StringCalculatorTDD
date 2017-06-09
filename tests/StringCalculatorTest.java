@@ -22,7 +22,7 @@ public class StringCalculatorTest {
 		assertEquals(calc.add("1\n2,3"),6);
 	}
 	
-	@Test (expected = StringCalculatorException.class)	
+	@Test (expected = StringCalculatorException.class)
 	public void Add_test3() throws StringCalculatorException{
 		StringCalculator calc = new StringCalculator();
 		calc.add("1,-2,3");
